@@ -20,9 +20,7 @@ app.get('/', (req, res) => {
 });
 
 // Routes
-import orderRoutes from "./routes/order.js";
 import userRoutes from "./routes/user.js";
-app.use("/api/orders", orderRoutes);
 app.use("/api/users", userRoutes);
 
 // Start DB Connection and Server

@@ -1,4 +1,4 @@
-import User from 'models/userModel.js';
+import User from '../models/userModel.js';
 import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '../utils/firebaseService.js';
 
 export const registerUser = async (req, res) => {
